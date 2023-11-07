@@ -1,0 +1,64 @@
+ [
+    {
+        "name": "John",
+        "username": "John5",
+        "password": "blahjohn",
+        "userType": "m"
+    },
+    {
+        "name": "Alice",
+        "username": "Alice123",
+        "password": "password123",
+        "userType": "f"
+    },
+    {
+        "name": "Bob",
+        "username": "Bob99",
+        "password": "bobspassword",
+        "userType": "m"
+    },
+    {
+        "name": "Emily",
+        "username": "Emily84",
+        "password": "emilyspass",
+        "userType": "f"
+    },
+    {
+        "name": "Mike",
+        "username": "Mike21",
+        "password": "mikesecret",
+        "userType": "m"
+    },
+    {
+        "name": "Linda",
+        "username": "Linda77",
+        "password": "lindapw",
+        "userType": "f"
+    },
+    {
+        "name": "David",
+        "username": "David60",
+        "password": "davids123",
+        "userType": "m"
+    },
+    {
+        "name": "Sarah",
+        "username": "Sarah45",
+        "password": "sarahpass",
+        "userType": "f"
+    },
+    {
+        "name": "Chris",
+        "username": "Chris88",
+        "password": "chrissafe",
+        "userType": "m"
+    },
+    {
+        "name": "Megan",
+        "username": "Megan31",
+        "password": "megan1234",
+        "userType": "f"
+    }
+]
+
+
