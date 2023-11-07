@@ -3,7 +3,7 @@ const userSchema = new Schema (
    {
       name: { type: String, required: true },
       username: { type: String, required: true },
-      password: { type: Number, required: true },
+      password: { type: String, required: true },
       // orgMember:{ type: [Schema.Types.ObjectId], ref: 'Organization', default:undefined },
       userType: { type: String, required: true },
    },

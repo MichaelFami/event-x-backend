@@ -1,8 +1,8 @@
 
 const db = require("../db");
-const users = require ("./data/user.json")
+// const users = require ("./data/user.json")
 
-const  { User, UserEvent, Organization, Event } = ("../models")
+const  { User, UserEvent, Organization, Event } = require("../models/index.js")
 
 // Connect to the database
 db.on("error", console.error.bind(console, "MongoDB connection error:"));
@@ -11,14 +11,78 @@ db.on("error", console.error.bind(console, "MongoDB connection error:"));
 
 
 const main = async () => {
-   let userList = users.map((user)=>{
+  //  let userList = users.map((user)=>{
 
-    return new User(
-      {name: user.name,
-    username: user.username,
-    password: user.password,
-    userType: user.userType,})
-  }) 
+  //   return new User(
+  //     {name: user.name,
+  //   username: user.username,
+  //   password: user.password,
+  //   userType: user.userType,})
+  // }) 
+
+const users = [
+  {
+      "name": "John",
+      "username": "John5",
+      "password": "blahjohn",
+      "userType": "m"
+  },
+  {
+      "name": "Alice",
+      "username": "Alice123",
+      "password": "password123",
+      "userType": "f"
+  },
+  {
+      "name": "Bob",
+      "username": "Bob99",
+      "password": "bobspassword",
+      "userType": "m"
+  },
+  {
+      "name": "Emily",
+      "username": "Emily84",
+      "password": "emilyspass",
+      "userType": "f"
+  },
+  {
+      "name": "Mike",
+      "username": "Mike21",
+      "password": "mikesecret",
+      "userType": "m"
+  },
+  {
+      "name": "Linda",
+      "username": "Linda77",
+      "password": "lindapw",
+      "userType": "f"
+  },
+  {
+      "name": "David",
+      "username": "David60",
+      "password": "davids123",
+      "userType": "m"
+  },
+  {
+      "name": "Sarah",
+      "username": "Sarah45",
+      "password": "sarahpass",
+      "userType": "f"
+  },
+  {
+      "name": "Chris",
+      "username": "Chris88",
+      "password": "chrissafe",
+      "userType": "m"
+  },
+  {
+      "name": "Megan",
+      "username": "Megan31",
+      "password": "megan1234",
+      "userType": "f"
+  },
+];
+
   const events = [
     {
         name: "blood drive",
@@ -55,17 +119,26 @@ const main = async () => {
   // await Event.deleteMany()
   // await Organization.deleteMany()
 
-  await User.insertMany(userList);
+  await User.insertMany(users);
   console.log("created User");
 
-  // await UserEvent.insertMany(userevents);
-  // console.log("created User");
 
-  // await Event.insertMany(events);
-  // console.log("created event");
+//   User.insertMany(users)
+//       .then(function () {
+//         console.log("created User");;
+//       })
+//       .catch(function (err) {
+//         console.log(err);
+//       });
 
-  // await Organization.insertMany(organizations);
-  // console.log("created Organization");
+  await UserEvent.insertMany(userevents);
+  console.log("created User");
+
+  await Event.insertMany(events);
+  console.log("created event");
+
+  await Organization.insertMany(organizations);
+  console.log("created Organization");
 };
 const run = async () => {
   await main();
