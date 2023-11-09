@@ -37,8 +37,8 @@ async function createEvent (req, res) {
 
 async function updateEvent (req, res) {
     try {
-        const { id } = req.params
-        let event = await Event.findByIdAndUpdate(id)
+        let id = req.params.id
+        let event = await Event.findByIdAndUpdate(id, req.body, {new: true})
         if (event) {
             return req.status(200).json(event)
         }
