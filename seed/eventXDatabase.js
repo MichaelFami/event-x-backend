@@ -102,7 +102,7 @@ const main = async () => {
       description: "Participants contribute warm blankets for the homeless.",
       location: "500 Oak St, Denver, CO",
       capacity: 150,
-      date: new Date("2019-11-20T18:00:00Z"),
+      date: new Date("2023-11-20T18:00:00Z"),
       rsvp: [],
     },
     {
@@ -111,7 +111,7 @@ const main = async () => {
         "A festive event where toys are collected for underprivileged children.",
       location: "815 Pine Ave, San Francisco, CA",
       capacity: 300,
-      date: new Date("2020-12-10T14:00:00Z"),
+      date: new Date("2023-12-10T14:00:00Z"),
       rsvp: [],
     },
     {
@@ -119,7 +119,7 @@ const main = async () => {
       description: "Book lovers unite to donate books for a community library.",
       location: "230 Maple Dr, Boston, MA",
       capacity: 180,
-      date: new Date("2018-06-25T16:45:00Z"),
+      date: new Date("2024-06-25T16:45:00Z"),
       rsvp: [],
     },
     {
@@ -128,7 +128,7 @@ const main = async () => {
         "Supporters come together to fundraise for clean water initiatives.",
       location: "42 Riverfront Ave, Seattle, WA",
       capacity: 250,
-      date: new Date("2019-08-05T13:15:00Z"),
+      date: new Date("2024-08-05T13:15:00Z"),
       rsvp: [],
     },
     {
@@ -137,7 +137,7 @@ const main = async () => {
         "Collecting winter clothing for those in need during the cold season.",
       location: "710 Pine St, Chicago, IL",
       capacity: 180,
-      date: new Date("2021-01-15T17:30:00Z"),
+      date: new Date("2024-01-15T17:30:00Z"),
       rsvp: [],
     },
     {
@@ -146,7 +146,7 @@ const main = async () => {
         "Environmental enthusiasts contribute to tree-planting initiatives.",
       location: "123 Greenway Blvd, Portland, OR",
       capacity: 200,
-      date: new Date("2022-04-22T10:00:00Z"),
+      date: new Date("2024-04-22T10:00:00Z"),
       rsvp: [],
     },
     {
@@ -154,7 +154,7 @@ const main = async () => {
       description: "Donations of hygiene products for underserved communities.",
       location: "890 Wellness Lane, Miami, FL",
       capacity: 150,
-      date: new Date("2020-07-08T14:30:00Z"),
+      date: new Date("2024-07-08T14:30:00Z"),
       rsvp: [],
     },
     {
