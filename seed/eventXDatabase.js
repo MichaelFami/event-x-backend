@@ -83,15 +83,28 @@ const users = [
   },
 ];
 
-  const events = [
-    {
-        name: "blood drive",
-        description: "people donate blood",
-        location: "That one house",
-        capacity: "345",
-        date:Date("2017-04-02T15:30:00Z"),
-  
-     },
+const events = [
+  {
+    "name": "Charity Auction",
+    "description": "Bid on unique items to support a good cause.",
+    "location": "Grand Hotel Ballroom",
+    "capacity": 200,
+    "date": "2024-04-05T18:00:00Z"
+  },
+  {
+    "name": "Book Fair",
+    "description": "Browse and buy a wide selection of books.",
+    "location": "City Library",
+    "capacity": 120,
+    "date": "2024-05-10T10:00:00Z"
+  },
+  {
+    "name": "Community Cleanup",
+    "description": "Help clean up the local park and environment.",
+    "location": "City Park",
+    "capacity": 50,
+    "date": "2024-06-15T08:00:00Z"
+  }
     
   ];
   const organizations = [
